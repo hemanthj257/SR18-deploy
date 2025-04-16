@@ -6,7 +6,6 @@ import streamlit as st
 from test import quick_detect
 from PIL import Image
 import numpy as np
-from db_helper import save_detection_session, get_user_sessions
 
 # Set page config with custom width
 st.set_page_config(page_title="Change Detection App", layout="wide")
